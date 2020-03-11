@@ -27,7 +27,7 @@ ZREVRANGE all-products 0 0
 
 ZREVRANGE all-products 0 1
 
-ZREVRANGE all-orders:{jane1} 0 0
+
 ```
 
 ```bash
