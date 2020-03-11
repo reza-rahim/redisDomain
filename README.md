@@ -19,9 +19,9 @@ HGETALL redisshop:product:john
 ```
 
 ```bash
-ZADD all-products 10.00 brad  
+ZADD all-products 10.00 redisshop:product:brad  
 
-ZADD all-products 15.00 john 
+ZADD all-products 15.00 redisshop:product:john 
 
 ZREVRANGE all-products 0 0
 
