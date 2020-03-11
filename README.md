@@ -5,7 +5,7 @@ HMSET redisshop:user:jane1 name jane email jane@redis.com password password
 
 HGET redisshop:user:jane1 name
 
-HGETALL jane1
+HGETALL redisshop:user:jane1
 ```
 
 ```bash
