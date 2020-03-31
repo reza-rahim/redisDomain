@@ -1,7 +1,7 @@
 ## Domain
 
 ```bash
-HMSET redisshop:user:jane1 name jane email jane@redis.com password password
+HMSET {redisshop:user:jane1} name jane email jane@redis.com password password
 
 HGET redisshop:user:jane1 name
 
